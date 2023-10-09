@@ -774,6 +774,13 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -1590,7 +1597,7 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>ScanPolicy</key>
-			<integer>983299</integer>
+			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
 			<key>Vault</key>
